@@ -1,11 +1,13 @@
 import random
 
 # Define the chatbot's responses to different user inputs
-responses = {
+responses = { 
     "hi": ["Hello!", "Hi there!", "Hey!"],
     "how are you": ["I'm doing well, thanks!", "Not too bad, thanks for asking.", "I'm just okay."],
     "bye": ["Goodbye!", "Bye-bye!", "See you later!"],
-    "jaja": ["to jaja sim homin!", "Vai colocar um hoje!", "Ai mataram o cleitin!"]
+    "jaja": ["to jaja sim homin!", "Vai colocar um hoje!", "Ai mataram o cleitin!"],
+    "qual e o melhor presidente": ["Lula!", "Bolsonaro!", "Suele da coca!", "Bill Cleito"],
+    "qual e o melhor presidente": ["Lula!", "Bolsonaro!", "Suele da coca!", "Bill Cleito"]
 }
 
 # Define the function to generate chatbot's response
